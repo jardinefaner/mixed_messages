@@ -16,3 +16,13 @@ const addMessage = (topic, message) => {
   }
   messages.push(message);
 };
+
+addMessage('astrological', 'You’re knee-deep in this process of self-expansion and looking at the world through a macro perspective, and yet the cosmos wish to momentarily remove you from this headspace.');
+addMessage('astrological', 'Spill the beans but don\'t lose sight of your current reality.');
+addMessage('astrological', 'Work hard, so you can play later.');
+addMessage('inspirational', 'All our dreams can come true, if we have the courage to pursue them.');
+addMessage('inspirational', 'The secret of getting ahead is getting started.');
+addMessage('inspirational', 'Only the paranoid survive.');
+addMessage('jokes', 'What do you call a bear without any teeth? A gummy bear!');
+addMessage('jokes', 'What’s at the bottom of the ocean and shivers? A nervous wreck!');
+addMessage('jokes', 'How many tickles does it take to tickle an octopus? Tentacles!');
