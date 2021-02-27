@@ -26,3 +26,11 @@ addMessage('inspirational', 'Only the paranoid survive.');
 addMessage('jokes', 'What do you call a bear without any teeth? A gummy bear!');
 addMessage('jokes', 'What’s at the bottom of the ocean and shivers? A nervous wreck!');
 addMessage('jokes', 'How many tickles does it take to tickle an octopus? Tentacles!');
+
+// Returns a random message
+const randomMessage = () => {
+  const index = Math.floor(Math.random * messages.length);
+  return `This is a/an ${messages[index].topic} quotes: ${messages[index].message}`
+};
+
+console.log(randomMessage());
