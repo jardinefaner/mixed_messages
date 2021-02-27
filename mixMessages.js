@@ -4,17 +4,17 @@ const messages = [];
 // Creates a message object and adds it to the array of messages
 // Topic must be astrology, inspirational, or jokes
 const addMessage = (topic, message) => {
-  let message = { };
+  let messageObject = { };
   topic.toLowerCase();
   if (topic === 'astrology' || topic === 'inspirational' || topic === 'jokes') {
-    message = {
+    messageObject = {
       topic,
       message
     };
   } else {
     console.log(`Error: topic must be astrology, inspirational, or jokes`);
   }
-  messages.push(message);
+  messages.push(messageObject);
 };
 
 addMessage('astrological', 'You’re knee-deep in this process of self-expansion and looking at the world through a macro perspective, and yet the cosmos wish to momentarily remove you from this headspace.');
