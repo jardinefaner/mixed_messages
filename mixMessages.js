@@ -6,7 +6,7 @@ const messages = [];
 const addMessage = (topic, message) => {
   let messageObject = { };
   topic.toLowerCase();
-  if (topic === 'astrology' || topic === 'inspirational' || topic === 'jokes') {
+  if (topic === 'astrological' || topic === 'inspirational' || topic === 'jokes') {
     messageObject = {
       topic,
       message
@@ -29,7 +29,7 @@ addMessage('jokes', 'How many tickles does it take to tickle an octopus? Tentacl
 
 // Returns a random message
 const randomMessage = () => {
-  const index = Math.floor(Math.random * messages.length);
+  const index = Math.floor(Math.random() * messages.length);
   return `This is a/an ${messages[index].topic} quotes: ${messages[index].message}`
 };
 
