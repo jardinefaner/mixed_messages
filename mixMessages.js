@@ -1,4 +1,4 @@
-// An array of objects containing 
+// An array of objects containing all messages
 const messages = [];
 
 // Creates a message object and adds it to the array of messages
